@@ -1,0 +1,5 @@
+if(EXISTS "/Users/leaves/CLionProjects/MatrixMultiplication/cmake-build-debug/Matrix_Test[1]_tests.cmake")
+  include("/Users/leaves/CLionProjects/MatrixMultiplication/cmake-build-debug/Matrix_Test[1]_tests.cmake")
+else()
+  add_test(Matrix_Test_NOT_BUILT Matrix_Test_NOT_BUILT)
+endif()

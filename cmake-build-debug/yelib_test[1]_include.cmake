@@ -1,0 +1,5 @@
+if(EXISTS "/Users/leaves/CLionProjects/MatrixMultiplication/cmake-build-debug/yelib_test[1]_tests.cmake")
+  include("/Users/leaves/CLionProjects/MatrixMultiplication/cmake-build-debug/yelib_test[1]_tests.cmake")
+else()
+  add_test(yelib_test_NOT_BUILT yelib_test_NOT_BUILT)
+endif()

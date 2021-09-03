@@ -1,0 +1,14 @@
+class Matrix:
+    initialize(List[], dim)
+    initialize(dim)
+    get(d1, d2)
+    display()
+
+class VirtualMatrix:
+    initialize(Matrix, d1_start, d2_start, d1_len, d2_len)
+    get(d1, d2)
+    display()
+
+func simple_multiply(Matrix A, Matrix B);
+
+func strassen_multiply(Matrix A, Matrix B);
